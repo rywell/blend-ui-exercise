@@ -1,4 +1,4 @@
-// Import Bootstrap scss partials individually
+/* Import Bootstrap scss partials individually */
 @import "vendor/bootstrap/functions";
 @import "vendor/bootstrap/variables";
 @import "vendor/bootstrap/mixins";
@@ -35,5 +35,5 @@
 @import "vendor/bootstrap/utilities";
 @import "vendor/bootstrap/print";
 
-// Import custom project scss partials here
+/* Import custom project scss partials here */
 @import "project/example";
