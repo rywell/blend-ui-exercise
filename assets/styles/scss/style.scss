@@ -1,6 +1,51 @@
 //Typography Variables
+$heading-type: 'Nunito', sans-serif;
+$body-type: 'Montserrat', sans-serif;
 
 //Color Variables
 $brand-color-primary: #028740;
 $brand-color-accent: #d81118;
 $bg-color-secondary: #dadad3;
+
+//Mixins
+@mixin heading-type-set {
+  font-family: $heading-type;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+@mixin body-type-set {
+  font-family: $body-type;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+body {
+  color: black;
+  font-family: $body-type;
+}
+
+.heading {
+  @include heading-type-set;
+}
+
+.body-copy {
+  @include body-type-set;
+}
+
+.feature-heading {
+  font-size: 2rem;
+}
+
+.feature-copy {
+  font-size: 1.375rem;
+}
+
+.sub-feature-copy {
+  font-size: .9375rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: black;
+}
