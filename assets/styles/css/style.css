@@ -1,3 +1,144 @@
+body {
+  color: black;
+  font-family: "Montserrat", sans-serif; }
 
+a {
+  text-underline-offset: 2px; }
+
+.heading {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.1;
+  margin-bottom: 2rem; }
+
+.body-copy {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 1rem; }
+
+.sub-feature-display {
+  font-size: 7.5rem; }
+
+.hero-tagline {
+  font-size: 2.9925rem; }
+
+.feature-heading {
+  font-size: 2rem; }
+
+.feature-subheading {
+  font-size: 1.5rem; }
+
+.feature-copy {
+  font-size: 1.375rem; }
+
+.footer-heading {
+  font-size: 1.25rem; }
+
+.sub-feature-copy {
+  font-size: .9375rem; }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+.primary-nav .nav-link {
+  font-size: 1rem;
+  color: black; }
+
+.feature-link,
+.secondary-cta {
+  color: #028740; }
+
+.feature-link:hover {
+  color: #03d264; }
+
+.brand-bg-section, .alt-feature-link {
+  color: white; }
+
+.alt-feature-link {
+  text-decoration: underline; }
+  .alt-feature-link:hover {
+    color: #d9d9d9; }
+
+.jumbotron .hero-tagline {
+  border: solid white 5px; }
+
+.secondary-cta {
+  border: solid #028740 3px; }
+  .secondary-cta:hover {
+    background-color: #028740;
+    color: white; }
+
+.primary-nav .primary-cta,
+.primary-cta {
+  background-color: #d81118;
+  border: solid #d81118 3px;
+  color: white; }
+  .primary-nav .primary-cta:hover,
+  .primary-cta:hover {
+    background-color: #a90d13;
+    color: white; }
+
+.brand-cta {
+  background-color: #028740;
+  color: white; }
+  .brand-cta:hover {
+    background-color: #015528;
+    color: white; }
+
+.cta:hover {
+  text-decoration: none; }
+
+.site-alert {
+  background-color: #028740; }
+
+.home-hero {
+  background-color: black;
+  height: 320px;
+  padding-top: 69px; }
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw; }
+
+.alt-bg-section {
+  background-color: #F5F4F2; }
+
+.brand-bg-section {
+  background-color: #028740; }
+
+.engagement-footer-section .row .border-separator:not(:first-child) {
+  border-top: solid white 1px; }
+
+@media only screen and (min-width: 992px) {
+  .navbar .secondary-cta {
+    border: none; }
+    .navbar .secondary-cta:hover {
+      text-decoration: underline;
+      background: none;
+      color: #03d264; }
+
+  .engagement-footer-section .row .border-separator:not(:first-child) {
+    border-top: none; }
+
+  .engagement-footer-section .row .border-separator:not(:last-child) {
+    border-right: solid white 1px; } }
+@media only screen and (min-width: 768px) {
+  .home-hero {
+    background-image: url(../../images/lunchpod-home-hero-1440x887.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    height: 525px; }
+
+  .hero-dark-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: inherit;
+    padding-top: 171.5px; }
+
+  .jumbotron .hero-tagline {
+    border: solid white 3px; } }
 
 /*# sourceMappingURL=style.css.map */
