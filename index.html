@@ -14,7 +14,7 @@
 <body>
 	<header>
 		<!-- navbar-->
-		<nav class="navbar navbar-expand-lg">
+		<nav class="primary-nav navbar navbar-expand-lg">
 				<a class="navbar-brand nav-item" href="#">
 					<img src="assets/images/lunchpod-logo-210x36.png" width="210" height="36" alt="Lunchpod" loading="lazy">
 				</a>
@@ -25,8 +25,8 @@
 				</button>
 
 				<div class="collapse navbar-collapse mt-4 mt-lg-0" id="navbarSupportedContent">
-					<h5 class="heading hidden-md d-lg-none">About</h5>
-					<ul class="navbar-nav m-auto">
+					<h5 class="heading hidden-md d-lg-none font-weight-bold">About</h5>
+					<ul class="navbar-nav m-lg-auto mb-5">
 						<li class="nav-item mx-lg-2">
 							<a class="nav-link" href="#">How It Works</a>
 						</li>
@@ -40,17 +40,17 @@
 							<a class="nav-link" href="#">Plans</a>
 						</li>
 					</ul>
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="secondary-cta nav-link font-weight-bold" href="#">Log In <i class="fas fa-lock"></i></a>
+					<ul class="navbar-nav mb-5 mb-lg-0">
+						<li class="nav-item mr-lg-1 mb-2 mb-lg-0">
+							<a class="secondary-cta nav-link rounded-pill font-weight-bold text-center py-2 px-2" href="#">Log in <i class="fas fa-lock"></i></a>
 						</li>
 						<li class="nav-item">
-							<a class="primary-cta nav-link rounded-pill font-weight-bold" href="#">Join Us <i class="fas fa-user-circle"></i></a>
+							<a class="primary-cta nav-link rounded-pill font-weight-bold text-center py-2 px-3" href="#">Join us <i class="fas fa-user-circle"></i></a>
 						</li>
 					</ul>
 					<!-- mobile-only nav items-->
-					<ul class="navbar-nav mt-4 mt-lg-0 d-lg-none">
-						<h5 class="heading">Support Center</h5>
+					<ul class="navbar-nav mb-5 mb-lg-0 d-lg-none">
+						<h5 class="heading font-weight-bold">Support Center</h5>
 						<li class="nav-item">
 							<a class="nav-link" href="#">Contact</a>
 						</li>
@@ -67,51 +67,222 @@
 		<!-- bootstrap jumbotron (alert) -->
 		<div class="site-alert jumbotron jumbotron-fluid py-2 m-0 text-center text-white">
 			<div class="container" role="alert">
-				Happy New Year! – We’re excited to roll out some new plan options. <a href="#" class="alert-link">Learn More!</a>.
+				Happy New Year! – We’re excited to roll out some new plan options. <a href="#" class="alt-feature-link">Learn More!</a>.
 			</div>
 		</div><!-- /bootstrap jumbotron alert -->
 
 		<!-- bootstrap jumbotron (hero) -->
-		<div class="home-hero jumbotron jumbotron-fluid bg-dark text-center text-white">
-			<div class="container">
-				<p class="hero-tagline d-inline-block display-4 font-weight-normal border border-white-5 p-3 m-0">Lunch is solved.</p>
+		<div class="home-hero jumbotron jumbotron-fluid p-md-0 text-center text-white">
+			<div class="hero-dark-overlay">
+				<div class="container">
+					<p class="hero-tagline heading d-inline-block display-4 font-weight-bold p-3 m-0">Lunch is solved.</p>
+				</div>
 			</div>
 		</div><!-- /bootstrap jumbotron (hero) -->
 
 	</header>
 
+	<!-- main content area -->
 	<div class="container">
+
+		<!-- how-to section -->
 		<section class="home-how-to-section text-center">
-			<div class="row">
+			<div class="row mb-5">
 				<div class="col-10 m-auto">
 					<h2 class="heading feature-heading font-weight-bold">How does Lunchpod work?</h2>
 					<p class="body-copy feature-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis vel nunc quis tincidunt. Etiam elementum convallis suscipit. It’s as easy as <span class="font-weight-bold">1-2-3</span>.</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col">
-					<span class="display-2 font-weight-bold">1</span>
-					<h3 class="heading feature-subheading font-weight-bold">Sign Up</h3>
-					<p class="body-copy sub-feature-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis vel nunc quis tincidunt.
-						Etiam elementum convallis suscipit. It’s as easy as</p>
+			<div class="row mb-5">
+				<div class="col-lg px-5">
+					<span class="sub-feature-display font-weight-bold">1</span>
+					<h3 class="heading feature-subheading font-weight-bold">Sign up</h3>
+					<p class="body-copy sub-feature-copy">Parents create an account with password, method of payment and shipping address. Kids get their own portal to make their lunches and customize their Lunchpod.</p>
+					<a href="#" class="feature-link font-weight-bold">Get Started <i class="fas fa-angle-right"></i></a>
 				</div>
-				<div class="col">
-					2 of 4
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					3 of 4
-				</div>
-				<div class="col">
-					4 of 4
+				<div class="col-lg px-5">
+					<span class="sub-feature-display font-weight-bold">2</span>
+					<h3 class="heading feature-subheading font-weight-bold">Pick your stuff</h3>
+					<p class="body-copy sub-feature-copy">The kid-friendly tool makes picking a main, side and sweet easy for kids of all ages.</p>
+					<a href="#" class="feature-link font-weight-bold">View Food <i class="fas fa-angle-right"></i></a>
 				</div>
 			</div>
-		</section>
-	</div>
+			<div class="row mb-5">
+				<div class="col-lg px-5">
+					<span class="sub-feature-display font-weight-bold">3</span>
+					<h3 class="heading feature-subheading font-weight-bold">Get the week's pods</h3>
+					<p class="body-copy sub-feature-copy">Each Pod arrives custom-labeled for the kid who packed it. Fresh food lasts all week in the fridge and all day in a backpack.</p>
+					<a href="#" class="feature-link font-weight-bold">View Abailability Map <i class="fas fa-angle-right"></i></a>
+				</div>
+				<div class="col-lg px-5">
+					<span class="sub-feature-display font-weight-bold">4</span>
+					<h3 class="heading feature-subheading font-weight-bold">Off you go</h3>
+					<p class="body-copy sub-feature-copy">Take your personalized Lunchpod from fridge to backpack and wow your friends at lunchtime. Complete nutrition and real food means you’re powered up for the day.</p>
+				</div>
+			</div>
+			<div class="row justify-content-center mb-5 py-5">
+				<div class="col-2-lg mr-2">
+					<a href="#" class="secondary-cta cta py-3 px-4 rounded-pill font-weight-bold">Learn more <i class="fas fa-angle-right"></i></a>
+				</div>
+				<div class="col-2-lg">
+					<a href="#" class="primary-cta cta py-3 px-4 rounded-pill font-weight-bold">View plans <i class="fas fa-angle-right"></i></a>
+				</div>
+			</div>
+		</section><!-- /how-to section -->
+
+		<!-- free trial section -->
+		<section class="free-trial-section alt-bg-section full-width">
+			<div class="row container mx-auto py-5">
+				<div class="col-lg">
+					<img src="assets/images/lunchpod-home-free-trial-feature-image-540x360.jpg" class="img-fluid mb-4 mb-lg-0" alt="a family playing together outside">
+				</div>
+				<div class="col-lg">
+					<h2 class="heading feature-heading font-weight-bold">Start with a free trial today!</h2>
+					<p class="body-copy feature-copy">We’re excited to become a part of your family. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis vel nunc quis tincidunt.</p>
+					<a href="#" class="secondary-cta cta d-inline-block py-3 px-4 rounded-pill font-weight-bold">Get started <i class="fas fa-angle-right"></i></a>
+				</div>
+			</div>
+		</section><!-- free trial section -->
+
+		<!-- testimonial section -->
+		<section class="testimonial-section">
+			<div class="row container py-5">
+				<div class="col-lg">
+					<h2 class="heading feature-heading font-weight-bold">"It makes everything easier"</h2>
+					<p class="body-copy feature-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis vel nunc quis tincidunt. Etiam elementum convallis suscipit. Maecenas sed elit convallis.</p>
+					<p class="body-copy feature-copy">-Caring Parent, mother of two</p>
+					<a href="#" class="secondary-cta cta d-inline-block py-3 px-4 mb-4 mb-lg-0 rounded-pill font-weight-bold">Read more <i
+							class="fas fa-angle-right"></i></a>
+				</div>
+				<div class="col-lg">
+					<img src="assets/images/lunchpod-home-about-feature-video-placeholder-image-540x304.jpg" class="img-fluid" alt="a short video explaining ">
+				</div>
+			</div>
+		</section><!-- explainer section -->
+
+		<!-- testimonial section -->
+		<section class="testimonial-section full-width alt-bg-section text-center">
+			<div class="row container mx-auto py-5">
+				<div class="col-lg">
+					<h2 class="heading feature-heading font-weight-bold">Still have questions about LunchPod? We can answer that.</h2>
+					<a href="#" class="feature-link font-weight-bold">Frequently Asked Questions <i class="fas fa-angle-right"></i></a>
+				</div>
+			</div>
+		</section><!-- /testimonial section -->
+
+		<footer class="full-width text-center">
+
+			<!-- engagement footer section -->
+			<section class="engagement-footer-section brand-bg-section">
+				<div class="row container mx-auto py-5">
+					<div class="border-separator col-lg py-4 py-lg-0 mb-5 mb-lg-0">
+						<h2 class="heading footer-heading font-weight-bold">Our Latest Post</h2>
+						<a href="#" class="alt-feature-link sub-feature-copy font-weight-bold">Managing Food Allergies in the School Setting</a>
+					</div>
+					<div class="border-separator col-lg py-4 py-lg-0 mb-5 mb-lg-0">
+						<h2 class="heading footer-heading font-weight-bold">Get Updates an Blog Posts</h2>
+						<form class="row justify-content-center mr-0">
+							<div class="form-group  col-md mx-5 mx-md-0 mb-md-0">
+								<label for="email" class="form-control-label sr-only">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Email">
+							</div>
+							<button type="submit" class="btn btn-outline-light rounded-pill col-6 col-md-auto">Submit</button>
+						</form>
+					</div>
+					<div class="border-separator col-lg py-4 py-lg-0 mb-5 mb-lg-0">
+						<h2 class="heading footer-heading font-weight-bold">Follow Us</h2>
+						<a href="#" class="m-0 p-0"><img src="assets/images/facebook-icon-50x50.png" alt="facebook"></a>
+						<a href="#" class="m-0 p-0"><img src="assets/images/youtube-icon-50x50.png" alt="youtube"></a>
+						<a href="#"><img src="assets/images/twitter-icon-50x50.png" alt="twitter"></a>
+						<a href="#"><img src="assets/images/instagram-icon-50x50.png" alt="instagram"></a>
+						<a href="#"><img src="assets/images/linkedin-icon-50x50.png" alt="linkedin"></a>
+					</div>
+				</div>
+			</section><!-- /engagement footer section -->
+
+			<section class="footer-nav-section text-lg-left"><!-- footer navigation-->
+				<div class="row container mx-auto py-5">
+					<div class="col-lg mb-5 mb-lg-0">
+						<img src="assets/images/lunchpod-logo-210x36.png" alt="lunchpod">
+					</div>
+					<div class="col-lg mb-5 mb-lg-0">
+						<h5 class="heading footer-heading font-weight-bold pl-3">About Obvious</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a class="nav-link feature-link" href="#">How It Works</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link feature-link" href="#">The Lunches</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link feature-link" href="#">Our Commitment</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link feature-link" href="#">Plans</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg mb-5 mb-lg-0">
+						<h5 class="heading footer-heading font-weight-bold pl-3">Our Company</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a class="nav-link feature-link" href="#">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link feature-link" href="#">Careers</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link feature-link" href="#">Press</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link feature-link" href="#">Investor Relations</a>
+							<li class="nav-item">
+								<a class="nav-link feature-link" href="#">Our Team</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg mb-5 mb-lg-0">
+						<h5 class="heading footer-heading font-weight-bold pl-3">Support Center</h5>
+							<ul class="nav flex-column">
+								<li class="nav-item">
+									<a class="nav-link feature-link" href="#">Contact</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link feature-link" href="#">FAQ</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link feature-link" href="#">Allergy Help</a>
+								</li>
+							</ul>
+					</div>
+				</div>
+			</section><!-- /footer navigation-->
+
+			<!-- legal info -->
+			<section class="legal-info-section text-lg-left p-4">
+				<div class="row container m-auto">
+					<div class="col-md">
+						<p class="d-inline-block mr-2">&copy; Lunchpod <span class="d-none d-lg-inline" id="year"></span></p>
+						<a class="feature-link d-inline-block mr-2" href="#">Terms</a>
+						<a class="feature-link d-inline-block mr-2" href="#">Privacy</a>
+					</div>
+					<div class="col-md-auto">
+						<a class="brand-cta cta d-inline-block py-2 px-4 mb-4 mb-lg-0 rounded-pill font-weight-bold" href="#">Questions <i class="fas fa-question-circle"></i></a>
+					</div>
+				</div>
+			</section><!-- /legal info -->
+		</footer>
+
+	</div><!-- /main content area -->
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script>
+		$(function () {
+			var theYear = new Date().getFullYear();
+			$('#year').html(theYear);
+		});
+	</script>
 </body>
 </html>
